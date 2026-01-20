@@ -48,3 +48,9 @@ Description of the project.
 
 ---
 ⭐️ From [Wendell Oliiver](https://github.com/wendelloliiver)
+
+Execute `npm run build` to build the project.
+
+Execute `npm run deploy` to deploy the project.
+
+Execute `npm run dev` to run the project.
