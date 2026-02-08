@@ -1,0 +1,60 @@
+/* Reset básico para tirar margens padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace; /* Fonte estilo código */
+}
+
+body {
+    background-color: #1a1a1a; /* Fundo escuro */
+    color: #f0f0f0; /* Texto claro */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    padding: 2rem;
+    border: 1px solid #333;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #888;
+    margin-bottom: 2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #1a1a1a;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ccc; /* Efeito ao passar o mouse */
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
