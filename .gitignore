@@ -3,7 +3,6 @@
 .cursor
 .vscode
 .github
-.agents
-
-.agent
-.inspirations
+.agent/
+.agents/
+inspirations/
