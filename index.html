@@ -3,51 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wendell Oliver | Portfolio</title>
-
+    <title>Wendell Oliveira | Software Engineer</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <header>
-      <p>Wendell Oliveira</p>
+    <!-- Overlay/Decorative Elements -->
+    <div class="background-grain"></div>
+
+    <header class="main-header">
+      <div class="logo mono">WO.2026</div>
       <nav>
-        <a href="#">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Projects</a>
-        <a href="#">Experience</a>
-        <a href="#">Contact</a>
+        <ul class="nav-links mono">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
-    <hr />
-
     <main>
-      <section>
-        <h1>Hi, I'm a Software Engineer</h1>
-        <p>
-          Building robust, scalable application with Java, Spring Boot, and
-          modern technologies. Passionate about clean code and elegant
-          solutions.
-        </p>
-        <button href="#" target="_blank" class="btn">Get in Touch</button>
-        <button href="#" target="_blank" class="btn">View Projects</button>
-
-        <a href="http://" target="_blank">GitHub</a>
-        <a href="http://" target="_blank">Linkedin</a>
-        <a href="http://" target="_blank">Email</a>
+      <!-- HERO SECTION -->
+      <section class="hero section-padding">
+        <div class="hero-content">
+          <p class="mono accent hero-tagline">// Senior Software Engineer</p>
+          <h1 class="hero-title">Wendell<br>Oliveira</h1>
+          <div class="hero-subline">
+            <p>Architecting robust, scalable systems with precision and elegance. Focused on high-performance Java ecosystems.</p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn primary">Explore My Work</a>
+              <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <div class="card">
-        <img src="/assets/img_avatar.png" alt="Avatar" style="width: 100%" />
-        <div class="container">
-          <h4><b>Wendell Oliveira</b></h4>
+      <!-- PROJECTS SECTION -->
+      <section id="projects" class="projects section-padding">
+        <h2 class="section-title mono">// featured_work</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card large">
+            <div class="project-info">
+              <p class="mono project-num">01</p>
+              <h3>Neptune Core</h3>
+              <p>High-performance financial transaction engine processing 10k+ requests/sec with sub-millisecond latency.</p>
+              <ul class="project-tags mono">
+                <li>Java 21</li>
+                <li>Spring Boot</li>
+                <li>Kafka</li>
+              </ul>
+            </div>
+            <div class="project-visual">
+                <!-- Placeholder for visual -->
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-info">
+              <p class="mono project-num">02</p>
+              <h3>Sentinela API</h3>
+              <p>Distributed monitoring services for cloud-native infrastructure with real-time alerting.</p>
+              <ul class="project-tags mono">
+                <li>Microservices</li>
+                <li>Redis</li>
+                <li>Docker</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-info">
+              <p class="mono project-num">03</p>
+              <h3>Aether Cloud</h3>
+              <p>Automated infrastructure provisioning for complex AWS environments using IaC patterns.</p>
+              <ul class="project-tags mono">
+                <li>Terraform</li>
+                <li>AWS</li>
+                <li>CI/CD</li>
+              </ul>
+            </div>
+          </article>
         </div>
-      </div>
+      </section>
+
+      <!-- SKILLS & ABOUT -->
+      <section id="about" class="about section-padding">
+        <div class="about-content">
+            <h2 class="mono">// core_competencies</h2>
+            <div class="skills-list">
+                <div class="skill-item">Backend Architecture</div>
+                <div class="skill-item">Scalable Microservices</div>
+                <div class="skill-item">Performance Tuning</div>
+                <div class="skill-item">Cloud Native Systems</div>
+            </div>
+            <p class="about-text">
+                With over a decade of experience in the software industry, I specialize in building enterprise-grade applications that stand the test of time. My approach combines technical excellence with a deep understanding of business requirements.
+            </p>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="contact section-padding">
+        <div class="contact-container">
+            <h2 class="hero-title">Work<br>Together?</h2>
+            <div class="contact-links mono">
+                <a href="mailto:hello@wendell.dev">hello@wendell.dev</a>
+                <a href="https://www.linkedin.com/in/wendelloliiver/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/wendelloliiver" target="_blank">GitHub</a>
+            </div>
+        </div>
+      </section>
     </main>
 
-    <footer>
-      <p>2026 &copy; Feito com &hearts; por Wendell Oliveira.</p>
+    <footer class="main-footer mono">
+      <p>&copy; 2026 Wendell Oliveira. Engineered for performance.</p>
     </footer>
 
     <script src="js/script.js"></script>
